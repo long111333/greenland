@@ -1,0 +1,13 @@
+{
+  "device_id": "BIN_EDGE_AI_001",
+  "system_mode": "AUTO",
+  "camera": {
+    "device_index": 0,
+    "resolution": "1280x720",
+    "fps": 30
+  },
+  "sync_interval_seconds": 10,
+  "backend_endpoint": "http://127.0.0.1:8000/api/v1",
+  "offline_sqlite_backup": true,
+  "device_api_key": "edge-dev-key"
+}

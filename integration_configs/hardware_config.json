@@ -1,0 +1,36 @@
+{
+  "hardware_version": "V1.0-ArduinoUno",
+  "pin_mapping": {
+    "servo_gate_sg90": {
+      "pin": "D9",
+      "description": "Servo cửa chặn (Cửa xả rác)",
+      "safe_angle_min": 0,
+      "safe_angle_max": 90
+    },
+    "servo_turntable_high_torque": {
+      "pin": "D10",
+      "description": "Servo máng xoay 3 ngăn",
+      "positions": {
+        "plastic": 0,
+        "metal": 60,
+        "paper": 120,
+        "home": 180
+      }
+    },
+    "distance_sensor_hopper": {
+      "pin": "A0",
+      "type": "Ultrasonic/Infrared",
+      "description": "Cảm biến khoảng cách kiểm tra rác đầu vào"
+    },
+    "bin_full_sensors": {
+      "plastic_bin": {"pin": "A1", "threshold_cm": 5.0},
+      "metal_bin": {"pin": "A2", "threshold_cm": 5.0},
+      "paper_bin": {"pin": "A3", "threshold_cm": 5.0}
+    }
+  },
+  "serial_communication": {
+    "baud_rate": 115200,
+    "port_default": "/dev/ttyACM0",
+    "timeout_ms": 3000
+  }
+}

@@ -1,0 +1,12 @@
+# AutoBin REST API — Python 3.11+
+# bcrypt==4.0.1 khớp backend/db: passlib 1.7.4 không verify được với bcrypt 4.1+.
+# uvicorn không dùng extra [standard] (PyYAML chưa có wheel trên mọi bản Python mới).
+# --reload dùng watchfiles.
+
+fastapi>=0.115.0,<1
+uvicorn>=0.32.0,<1
+watchfiles>=0.20
+PyJWT>=2.9.0,<3
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+pydantic>=2,<3

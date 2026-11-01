@@ -1,0 +1,1 @@
+"""AutoBin FastAPI application package."""

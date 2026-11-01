@@ -1,0 +1,41 @@
+# Secrets & env
+.env
+.env.*
+!.env.example
+**/.env
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Flutter / Dart
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/build/
+mobile/.pub-cache/
+mobile/.pub/
+mobile/**/Generated.xcconfig
+mobile/**/flutter_export_environment.sh
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+*.log
+
+# Local DB runtime (optional — keep schema/seed scripts)
+backend/db/*.db
+backend/db/*.db-*
+
+# Agent / local tooling
+.cursor/
+agent-transcripts/

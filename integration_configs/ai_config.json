@@ -1,0 +1,22 @@
+{
+  "ai_framework": "TFLite / ONNX",
+  "active_model": "MobileNetV3-Small",
+  "confidence_threshold": 0.75,
+  "frame_confirmation_count": 5,
+  "total_sample_frames": 7,
+  "classes": ["plastic", "metal", "paper", "unknown"],
+  "models_benchmark": {
+    "MobileNetV3-Small": {
+      "input_size": "224x224",
+      "avg_latency_ms": 45,
+      "target_fps": 18,
+      "accuracy": 0.88
+    },
+    "YOLO-Nano": {
+      "input_size": "320x320",
+      "avg_latency_ms": 110,
+      "target_fps": 8,
+      "accuracy": 0.91
+    }
+  }
+}

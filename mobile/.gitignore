@@ -1,0 +1,27 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+*.ipr
+*.iws
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+
+# Generated platforms (created by `flutter create .`)
+# Keep local platform folders out of accidental junk; commit them after generate if needed.
+/android/.gradle/
+/ios/Pods/
+/ios/.symlinks/
