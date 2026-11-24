@@ -1,0 +1,6 @@
+firmware/.pio/
+__pycache__/
+*.pyc
+.venv/
+*.exe
+test-reports/
